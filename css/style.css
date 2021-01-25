@@ -1,0 +1,191 @@
+/*Globales*/
+
+body{
+    font-size: 16px;
+    font-family: Helvetica, Arial, sans-serif;
+    background-color: #3b4cca;
+    margin: 0;
+    line-height: 2;
+
+}
+
+img{
+    max-width: 100%;
+    height: 200px;
+}
+
+/*Utilerias*/
+.logo{
+
+    width: 100px;
+    height: 50px;
+
+}
+
+.centrar{
+    text-align: center;
+
+}
+
+.izquierda{
+
+    text-align: left;
+}
+/* Principal*/
+.header{
+
+    background-color: red;
+    padding: 1rem 0 1rem 0;
+}
+
+.contenedor{
+    width: 85%;
+    margin: 0 auto;
+
+}
+
+.barra{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.navegacion a{
+    margin-right: 23px;
+    text-decoration: none;
+    color:white;
+}
+
+.navegacion a:last-of-type{
+    margin-right: 0;
+
+}
+
+@media(max-width:768px){
+    .barra{
+        flex-direction: column;
+    }
+
+    .navegacion{
+        margin-top: 10px;
+        display:flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+}
+
+
+a:hover{
+    color:yellow;
+}
+
+.contenedor-cards{
+
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-top: 50px;   
+
+}
+
+.card{
+
+    border: 1px solid #000000;
+    flex: 0 0 calc(33.3% - 1rem);
+    background-color: silver;
+    border-radius: 3%;
+    margin-bottom: 30px;
+}
+
+@media(max-width: 768px){
+    .card{
+       
+        flex: 0 0 100%;
+       
+    }
+}
+
+.card:hover{
+
+    box-shadow: 5px 5px 1px #000000;
+
+}
+
+ul{
+    display:flex;
+    list-style-type: none;
+    justify-content: space-around;
+}
+
+/*Elementos*/
+.elemento{
+    border-radius: 10px;
+    padding: 6px;
+
+}
+
+.agua{
+
+    background-color: blue;
+}
+
+.fuego{
+
+    background-color:red;
+}
+
+.tierra{
+
+    background-color:saddlebrown;
+}
+
+.roca{
+
+    background-color: gray;
+}
+
+.electrico{
+    background-color: yellow;
+}
+
+.planta{
+    background-color: green;
+}
+
+.veneno{
+    background-color: indigo;
+
+}
+
+.psquico{
+
+    background-color: khaki;
+}
+
+.volador{
+    background-color: mediumturquoise;
+}
+
+/*Contacto*/
+input:not([type="submit"]),
+textarea,
+select{
+    padding: 1rem;
+    display: block;
+    width: 90%;
+    background-color: #e1e1e1;
+    margin-bottom: 2rem;    
+    border-radius: 1rem;
+}
+
+textarea{
+    height: 20rem;    
+}
+
+.button{
+
+    background-color:grey;
+    margin-top: 20px;
+
+}

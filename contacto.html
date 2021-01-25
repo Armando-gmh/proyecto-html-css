@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="/css/style.css">
+</head>
+<body>
+    <header class="header">
+        <div class="contenedor">
+            <div class="barra">
+                <img class="logo" src="/img/logo_pokemon.svg" alt="">
+
+                <nav class="navegacion">
+                    <a href="index.html">Inicio</a>
+                    <a href="pokemons.html">Listas de Pokémons</a>
+                    <a href="yo.html">Sobre mí</a>
+                </nav>
+            </div>
+        </div>
+
+    </header>
+
+
+    <main class="contenedor">
+        <h1 class="centrar">Contacto</h1>
+
+
+        <form class="contacto">
+            <fieldset>
+                <legend>Informacion Personal</legend>
+                <label for="nombre">Nombre Completo:</label>
+                <input type="text" id="nombre" placeholder="Tu nombre Completo">
+
+
+                <label for="correo">Correo:</label>
+                <input type="email" id="correo" placeholder="Tu correo">
+
+                <label for="telefono">Teléfono</label>
+                <input type="tel" placeholder="Tu numero de teléfono">
+            </fieldset>
+
+
+            <fieldset>
+                <legend>Comentario</legend>
+                <label for="fecha">Fecha:</label>
+                <input type="date" id="fecha">
+
+                <label for="razon">Razon para enviar comentario</label>
+                <select id="razon">
+                    <option> Sugerencia</option>
+                    <option> Queja</option>
+                    <option> Obtener Información</option>
+                </select>
+
+                <label for="comentario" >Comentario</label>
+                <textarea id="comentario"></textarea>
+
+
+            </fieldset>
+
+            <input class="button" type="submit" value="Enviar">
+        </form>
+
+
+
+    </main>
+</body>
+</html>
